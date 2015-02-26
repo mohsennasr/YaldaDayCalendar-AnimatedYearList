@@ -1,0 +1,28 @@
+<com.yaldaco.daycalendar.CustomClasses.CustomDrawer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.yaldaco.daycalendar.CustomClasses.CustomViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:background="@color/accent_material_dark"/>
+
+
+    <!-- Listview to display slider menu -->
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="multipleChoice"
+        android:textDirection="rtl"
+        android:childDivider="@color/list_child_divider"
+        android:divider="@color/list_divider"
+        android:dividerHeight="2dp"
+        android:listSelector="@drawable/list_selector"
+        android:background="@color/list_background"/>
+</com.yaldaco.daycalendar.CustomClasses.CustomDrawer>

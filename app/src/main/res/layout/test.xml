@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/date_header_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_weight="40">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/month_name_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_weight="45"-->
+    <!--android:text="November"/>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/header_detail_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_weight="40"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/day_name_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Saturday"-->
+    <!--android:layout_weight="20"/>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/jalali_date_layout"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="20">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/jalali_year_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="1393"-->
+    <!--android:layout_weight="12"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/jalali_month_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="بهمن"-->
+    <!--android:layout_weight="8"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/jalali_date_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="7"-->
+    <!--android:layout_weight="14"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/arabic_date_layout"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="20">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/arabic_year_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="1435"-->
+    <!--android:layout_weight="12"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/arabic_month_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="صفر"-->
+    <!--android:layout_weight="8"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/arabic_date_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="7"-->
+    <!--android:layout_weight="14"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/miladi_date_layout"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="20">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/miladi_year_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="2015"-->
+    <!--android:layout_weight="12"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/miladi_month_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="September"-->
+    <!--android:layout_weight="8"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/miladi_date_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:text="23"-->
+    <!--android:layout_weight="14"/>-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/date_tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_weight="45"-->
+    <!--android:text="25"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/add_note_layout"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/add_note_ib"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/ic_action_new"/>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<ListView-->
+    <!--android:id="@+id/note_list_lv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="right"-->
+    <!--android:textDirection="rtl"-->
+    <!--android:layout_weight="30"/>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/day_note_layout"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_weight="40"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/dayli_note_1_tv"-->
+    <!--android:layout_weight="5"-->
+    <!--android:text="سطر اول پیام روز"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/dayli_note_2_tv"-->
+    <!--android:layout_weight="5"-->
+    <!--android:text="سطر دوم پیام روز"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

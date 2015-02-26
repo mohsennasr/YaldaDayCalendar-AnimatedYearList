@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="date_header_layout" type="id"/>
+    <item name="date_details_layout" type="id"/>
+    <item name="jalali_date_layout" type="id"/>
+    <item name="arabic_date_layout" type="id"/>
+    <item name="miladi_date_layout" type="id"/>
+    <item name="add_note_layout" type="id"/>
+    <item name="dayli_note_layout" type="id"/>
+
+    <item name="date_tv" type="id"/>
+    <item name="month_name_tv" type="id"/>
+    <item name="day_name_tv" type="id"/>
+    <item name="jalali_date_tv" type="id"/>
+    <item name="jalali_month_tv" type="id"/>
+    <item name="jalali_year_tv" type="id"/>
+    <item name="arabic_date_tv" type="id"/>
+    <item name="arabic_month_tv" type="id"/>
+    <item name="arabic_year_tv" type="id"/>
+    <item name="miladi_date_tv" type="id"/>
+    <item name="miladi_month_tv" type="id"/>
+    <item name="miladi_year_tv" type="id"/>
+    <item name="dayli_note_1_tv" type="id"/>
+    <item name="dayli_note_2_tv" type="id"/>
+
+    <item name="add_note_ib" type="id"/>
+    <item name="note_list_lv" type="id"/>
+
+</resources>
